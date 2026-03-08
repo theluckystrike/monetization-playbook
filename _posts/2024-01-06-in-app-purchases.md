@@ -214,3 +214,21 @@ Maximize IAP revenue through:
 8. **Iterate quickly**: Add new add-ons based on demand
 
 In-app purchase Chrome Extension Monetization allows for sophisticated revenue strategies that meet users where they are. By offering targeted, valuable add-ons, you create a scalable business that grows with your user base.
+
+## Frequently Asked Questions
+
+### What types of add-ons sell best for Chrome extensions?
+
+Feature add-ons (advanced functionality, professional tools), content add-ons (templates, data packs), utility add-ons (additional storage, increased limits), and customization options (premium themes) all perform well. Focus on add-ons that enhance the core experience without being essential.
+
+### What are optimal price points for Chrome extension in-app purchases?
+
+Price under $5 for low-commitment impulse purchases, $5-$15 for moderate value additions, $15-$50 for significant feature expansions, and $50+ for comprehensive professional upgrades. Use multiple tiers (Good/Better/Best) to capture different customer segments.
+
+### How do I encourage more in-app purchases without being pushy?
+
+Present IAP opportunities at effective trigger points: after successful task completion, when users hit usage limits, during natural workflow pauses, and after feature demonstrations. Use clear value propositions, visual demonstrations, and social proof rather than aggressive prompts.
+
+### Which payment processor should I use for Chrome extension in-app purchases?
+
+Chrome Web Store Payments offers built-in processing but takes 30%. Stripe provides lower fees with more control. Paddle handles tax compliance automatically. Lemon Squeezy offers modern alternatives with global tax handling. Choose based on your technical requirements and fee tolerance.

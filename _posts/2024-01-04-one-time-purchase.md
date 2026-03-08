@@ -166,3 +166,21 @@ Maximize conversion from free to paid:
 - **Feature-based updates**: Free bug fixes, paid new features
 
 One-time purchase Chrome Extension Monetization remains viable for extensions that provide complete solutions. Focus on clearly communicating value and reducing purchase friction to maximize conversions.
+
+## Frequently Asked Questions
+
+### What is the best price for a one-time purchase Chrome extension?
+
+Optimal price points range from $4.99-$9.99 for impulse purchases, $14.99-$24.99 for professional tools, $29.99-$49.99 for comprehensive solutions, and $50+ for specialized enterprise or developer tools. Research competitor pricing and factor in the 30% Chrome Web Store fee.
+
+### How do I handle updates for one-time purchase Chrome extensions?
+
+Common approaches include free updates for one year (sustainable), lifetime updates (risky but attractive), charging for major version upgrades, or offering free bug fixes with paid new features. Choose a model that balances user expectations with your maintenance costs.
+
+### What payment processors support one-time purchases for Chrome extensions?
+
+Stripe offers excellent APIs with global support. Paddle handles tax compliance automatically. Gumroad provides easy setup for smaller operations. Chrome Web Store Payments offers built-in processing but has limited regional availability.
+
+### Do one-time purchase Chrome extensions still work in 2024?
+
+Yes, one-time purchases remain viable for extensions providing defined, complete solutions rather than ongoing services. Many users prefer "pay once, own forever" over subscription commitments, especially for utility extensions and specialized tools.

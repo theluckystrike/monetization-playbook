@@ -155,3 +155,21 @@ Ensure ads don't degrade the extension:
 7. **Consider hybrid models**: Combine ads with optional premium tiers
 
 Ad-supported Chrome Extension Monetization can be highly profitable when implemented thoughtfully. Focus on creating a seamless experience where advertising feels like a natural part of the extension rather than an intrusion.
+
+## Frequently Asked Questions
+
+### How much revenue can ad-supported Chrome extensions generate?
+
+Revenue varies significantly based on user base size and ad placements. Typical eCPM rates range from $2-10 for general audiences, but niche extensions with targeted audiences can earn $20+ eCPM. Extensions with 10,000 daily active users might generate $200-1,000 monthly.
+
+### What are the best ad networks for Chrome extensions?
+
+For general audiences, Google AdSense and AdThrive work well. For Chrome extensions specifically, AdMob (Google's network), ExtensionAds (specialized for browsers), and direct advertising sales perform best. Niche extensions often benefit from affiliate networks like Amazon Associates.
+
+### How do I prevent ads from driving users away from my Chrome extension?
+
+Prioritize user experience by using contextual advertising that matches content, placing ads in non-intrusive locations (footer, sidebar), implementing frequency capping to prevent ad fatigue, and always disclosing advertising clearly. Annoying ads lose users faster than no ads at all.
+
+### Can I combine ads with premium tiers in my Chrome extension?
+
+Yes, this hybrid model is highly effective. Offer a free ad-supported version alongside an optional premium tier with ads removed. This approach maximizes adoption while providing an upgrade path for users who prefer an ad-free experience.
