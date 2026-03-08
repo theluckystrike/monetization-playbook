@@ -1,0 +1,33 @@
+# Navigation for Monetization Playbook
+# Ordered list of all articles/pages
+
+- title: Home
+  url: /
+
+- title: Pricing Strategies
+  url: /pricing/
+  category: pricing
+
+- title: Advertising
+  url: /ads/
+  category: ads
+
+- title: Freemium Models
+  url: /freemium/
+  category: freemium
+
+- title: Subscriptions
+  url: /subscription/
+  category: subscription
+
+- title: Affiliate Marketing
+  url: /affiliate/
+  category: affiliate
+
+- title: Licensing
+  url: /licensing/
+  category: licensing
+
+- title: Case Studies
+  url: /case-studies/
+  category: case-studies

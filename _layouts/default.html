@@ -13,6 +13,28 @@
   {% if site.plugins contains "jekyll-seo-tag" %}
     {% seo %}
   {% endif %}
+  
+  {% if page.url != "/" %}
+  <!-- BreadcrumbList JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "{{ site.url }}{{ site.baseurl }}/"
+    },{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "{{ page.title | default: 'Article' }}",
+      "item": "{{ site.url }}{{ site.baseurl }}{{ page.url }}"
+    }]
+  }
+  </script>
+  {% endif %}
+  
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
 </head>
 <body>
@@ -32,7 +54,41 @@
     </nav>
     
     <main class="content">
+      {% if page.url != "/" %}
+      <!-- Breadcrumb Navigation -->
+      <nav class="breadcrumb">
+        <a href="{{ "/" | relative_url }}">Home</a> {% if page.title %}&raquo; <span>{{ page.title }}</span>{% endif %}
+      </nav>
+      {% endif %}
+      
       {{ content }}
+      
+      {% if page.url != "/" %}
+      <!-- Previous/Next Navigation -->
+      {% assign nav_items = site.data.navigation %}
+      {% assign current_index = -1 %}
+      {% for item in nav_items %}
+        {% if item.url == page.url %}
+          {% assign current_index = forloop.index0 %}
+        {% endif %}
+      {% endfor %}
+      
+      {% if current_index >= 0 %}
+        <nav class="prev-next">
+          {% if current_index > 0 %}
+            {% assign prev_index = current_index | minus: 1 %}
+            {% assign prev_item = nav_items[prev_index] %}
+            <a href="{{ prev_item.url | relative_url }}" class="prev">&laquo; {{ prev_item.title }}</a>
+          {% endif %}
+          
+          {% if current_index < nav_items.size | minus: 1 %}
+            {% assign next_index = current_index | plus: 1 %}
+            {% assign next_item = nav_items[next_index] %}
+            <a href="{{ next_item.url | relative_url }}" class="next">{{ next_item.title }} &raquo;</a>
+          {% endif %}
+        </nav>
+      {% endif %}
+      {% endif %}
     </main>
   </div>
   
