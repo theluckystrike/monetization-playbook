@@ -1,203 +1,183 @@
 # Contributing to Extension Monetization Playbook
 
-Thank you for your interest in improving this playbook! This guide will help you contribute effectively.
+Thank you for your interest in contributing! This playbook is a community-driven resource, and we welcome contributions from developers, marketers, and anyone with experience monetizing browser extensions.
 
 ## Table of Contents
 
-- [Ways to Contribute](#ways-to-contribute)
-- [Getting Started](#getting-started)
-- [Pull Request Process](#pull-request-process)
-- [Writing Style Guide](#writing-style-guide)
 - [Code of Conduct](#code-of-conduct)
+- [How to Contribute](#how-to-contribute)
+- [Adding New Content](#adding-new-content)
+  - [New Revenue Models](#new-revenue-models)
+  - [Case Studies](#case-studies)
+  - [Corrections and Improvements](#corrections-and-improvements)
+- [Writing Style Guide](#writing-style-guide)
+- [Pull Request Process](#pull-request-process)
+- [Commit Messages](#commit-messages)
 
-## Ways to Contribute
+## Code of Conduct
 
-### 1. Add New Chapters
+By participating in this project, you agree to maintain a respectful and inclusive environment. We expect all contributors to:
 
-Have expertise in a monetization topic we haven't covered? Propose a new chapter covering:
+- Be respectful and constructive
+- Welcome newcomers and help them learn
+- Focus on what is best for the community
+- Show empathy towards other community members
 
-- Specific revenue models
-- Payment provider integrations
-- Pricing strategies
-- Growth tactics
-- Legal considerations
+## How to Contribute
 
-### 2. Submit Case Studies
+There are many ways to contribute:
 
-Share real-world examples of extension monetization:
+1. **Add new chapters** — Share your monetization strategies
+2. **Submit case studies** — Document your journey
+3. **Improve existing content** — Fix errors, clarify explanations
+4. **Translate** — Help make this playbook accessible globally
+5. **Report issues** — Point out problems or suggest improvements
 
-- Company background
-- Revenue model chosen
-- Key success factors
-- Lessons learned
-- Metrics (if available)
+## Adding New Content
 
-### 3. Correct Errors
+### New Revenue Models
 
-Found outdated information or typos? Submit a fix:
+When adding a new revenue model:
 
-- Factual corrections
-- Link updates
-- Grammar and formatting
-- Broken examples
+1. Create a new section in README.md or a dedicated file
+2. Include:
+   - Clear explanation of the model
+   - Pros and cons
+   - Best use cases
+   - Implementation examples (code snippets)
+   - Real-world examples
 
-### 4. Improve Existing Content
+Example structure:
 
-Enhance what's already here:
+```markdown
+### New Revenue Model Name
 
-- Add updated statistics
-- Include new platforms
-- Expand sections with more detail
-- Improve readability
+Brief introduction explaining what this model is.
 
-## Getting Started
+**Best for:**
+- Use case 1
+- Use case 2
 
-### Fork the Repository
+**Pros:**
+- Advantage 1
+- Advantage 2
 
-1. Click the **Fork** button on the repository page
-2. Clone your fork locally:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/monetization-playbook.git
-   cd monetization-playbook
-   ```
+**Cons:**
+- Drawback 1
+- Drawback 2
 
-### Create a Branch
+#### Implementation Example
 
-Create a descriptive branch for your changes:
-
-```bash
-# For new chapters
-git checkout -b content/new-revenue-model
-
-# For case studies
-git checkout -b case-study/company-name
-
-# For fixes
-git checkout -b fix/description-of-fix
+[Code example or link to implementation]
 ```
 
-### Make Your Changes
+### Case Studies
 
-1. Edit the relevant files
-2. Follow our [Writing Style Guide](#writing-style-guide)
-3. Test any code examples
-4. Verify links work
+Case studies should be:
 
-### Submit a Pull Request
+- **Specific** — Include real numbers where possible
+- **Actionable** — Readers should learn concrete lessons
+- **Honest** — Include both successes and failures
+- **Relevant** — Connect lessons to the playbook's themes
 
-1. Push your branch:
-   ```bash
-   git push origin your-branch-name
-   ```
+Required elements:
+- Background on the extension
+- Monetization strategy used
+- Results and metrics
+- Key takeaways
 
-2. Open a Pull Request against the `main` branch
+### Corrections and Improvements
 
-3. Fill in the PR template with:
-   - Description of changes
-   - Related issue (if applicable)
-   - Screenshots (for UI changes)
-   - Testing steps
+For typo fixes and minor improvements:
 
-## Pull Request Process
-
-### Review Criteria
-
-Your PR will be reviewed for:
-
-- **Accuracy:** Information is correct and up-to-date
-- **Relevance:** Content fits the playbook's scope
-- **Clarity:** Writing is clear and professional
-- **Formatting:** Follows our style guide
-- **Originality:** No copyrighted content without permission
-
-### Response Time
-
-- Initial review: Within 7 days
-- Feedback: Constructive and actionable
-- Merging: After approval from maintainer
-
-### What Gets Accepted
-
-- Well-researched content with sources
-- Practical, actionable advice
-- Real-world examples and case studies
-- Corrections that improve accuracy
-
-### What Might Need Work
-
-- Unsubstantiated claims
-- Overly promotional content
-- Duplicate information already covered
-- Content outside the playbook's scope
+1. Fork the repository
+2. Make your changes
+3. Submit a pull request with a clear description
 
 ## Writing Style Guide
 
-### Tone
+### Tone and Voice
 
-- **Professional yet approachable** — like a knowledgeable peer
-- **Action-oriented** — focus on what readers can do
-- **Evidence-based** — support claims with data or examples
+- **Professional but accessible** — Explain jargon
+- **Practical** — Focus on actionable advice
+- **Concise** — Get to the point quickly
+- **Honest** — Acknowledge limitations and tradeoffs
 
 ### Formatting
 
-- Use **Markdown** for all content
-- **Headers** for hierarchy (H1 for title, H2 for sections, H3 for subsections)
-- **Lists** for steps and bullet points
-- **Code blocks** with language labels for examples
-- **Tables** for comparisons and structured data
+- Use **bold** for emphasis on key terms
+- Use `code` for technical terms, commands, and values
+- Use tables for comparisons and structured data
+- Use bullet points for lists
+- Use headings (##, ###) for structure
 
-### Language
+### Code Examples
 
-- Write in **American English**
-- Use **active voice**
-- Keep sentences **concise**
-- Avoid jargon; define technical terms when necessary
-- Use "you" to address the reader directly
-
-### Content Structure
-
-Each chapter should include:
-
-1. **Introduction** — What this section covers and why it matters
-2. **Main content** — Detailed explanation with examples
-3. **Key takeaways** — Summary of main points
-4. **Resources** — Links to further reading
+- Include working code when possible
+- Use syntax highlighting
+- Keep examples focused and minimal
+- Add comments explaining key parts
 
 ### Links
 
 - Use descriptive link text (not "click here")
-- Prefer official documentation for external links
-- Verify links are working before submitting
+- Verify links are working
+- Prefer authoritative sources
 
-### Examples
+## Pull Request Process
 
-Include real or realistic examples:
+1. **Fork** the repository
+2. **Create** a feature branch:
+   ```bash
+   git checkout -b feature/your-feature-name
+   # or
+   git checkout -b fix/description-of-fix
+   ```
 
-- **Do:** "Grammarly uses a freemium model with 3 tiers..."
-- **Don't:** "Here's an example of how it might work..."
+3. **Make** your changes:
+   - Follow the writing style guide
+   - Test any code examples
+   - Check spelling and grammar
 
-## Code of Conduct
+4. **Commit** your changes with a clear message:
+   ```bash
+   git commit -m "Add case study for Todoist monetization"
+   ```
 
-### Our Pledge
+5. **Push** to your fork:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
 
-We are committed to making this a welcoming space for everyone. Please:
+6. **Open** a Pull Request:
+   - Fill out the PR template
+   - Describe your changes clearly
+   - Link any related issues
 
-- Be respectful and inclusive
-- Welcome newcomers and help them learn
-- Accept constructive criticism gracefully
-- Focus on what's best for the community
+### PR Review Criteria
 
-### Unacceptable Behavior
+Your PR will be reviewed based on:
 
-- Harassment of any kind
-- Personal or political attacks
-- Publishing others' private information
-- Spam or promotional content
+- **Accuracy** — Information must be correct
+- **Clarity** — Easy to understand
+- **Relevance** — Fits the playbook's scope
+- **Quality** — Well-written and formatted
+- **Originality** — Adds new value
 
-### Enforcement
+## Commit Messages
 
-Instances of abusive behavior should be reported to the maintainers. All complaints will be reviewed and addressed appropriately.
+Use clear, descriptive commit messages:
+
+✅ Good:
+- `Add subscription revenue model chapter`
+- `Fix typo in Stripe integration example`
+- `Update case study with 2024 metrics`
+
+❌ Bad:
+- `fix`
+- `update`
+- `changes made`
 
 ---
 
-Thank you for contributing to the Extension Monetization Playbook!
+Questions? Open an issue or start a discussion. Thank you for contributing!
