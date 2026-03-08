@@ -1,3 +1,10 @@
+---
+title: "Chrome Extension One-Time Purchase Monetization — Single Payment Strategies"
+date: 2024-01-04
+layout: default
+canonical_url: "https://theluckystrike.github.io/monetization-playbook/2024/01/04/one-time-purchase.html"
+---
+
 # Chrome Extension One-Time Purchase Monetization — Single Payment Strategies
 
 One-time purchase Chrome Extension Monetization offers simplicity for both developers and users, with customers paying once to unlock full functionality forever. This guide covers pricing strategies, feature gating, and conversion optimization for maximizing revenue from single-payment transactions.
