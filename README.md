@@ -1,339 +1,357 @@
 # Extension Monetization Playbook
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Last Commit](https://img.shields.io/github/last-commit/theluckystrike/monetization-playbook)](https://github.com/theluckystrike/monetization-playbook/commits/main)
+[![Last Commit](https://img.shields.io/github/last-commit/theluckystrike/monetization-playbook)](https://github.com/theluckystrike/monetization-playbook/commits)
 [![Stars](https://img.shields.io/github/stars/theluckystrike/monetization-playbook)](https://github.com/theluckystrike/monetization-playbook/stargazers)
 
-Open-source playbook for monetizing browser extensions — from zero to sustainable revenue.
+Open-source playbook for monetizing browser extensions — strategies, payment integrations, pricing models, and growth tactics that actually work.
 
 ## Table of Contents
 
 - [Quick Start](#quick-start)
-- [Why Monetize Your Extension?](#why-monetize-your-extension)
+- [Why This Playbook](#why-this-playbook)
 - [Revenue Models](#revenue-models)
   - [Freemium](#freemium)
   - [Subscription](#subscription)
   - [One-Time Purchase](#one-time-purchase)
-  - [Affiliate & Referral](#affiliate--referral)
   - [Ad-Supported](#ad-supported)
-  - [White-Label & Enterprise](#white-label--enterprise)
+  - [Affiliate & Referral](#affiliate--referral)
 - [Payment Integration](#payment-integration)
   - [Stripe](#stripe)
-  - [LemonSqueezy](#lemonsqueezy)
   - [Paddle](#paddle)
-  - [Gumroad](#gumroad)
+  - [Lemon Squeezy](#lemon-squeezy)
+  - [Payment Processor Comparison](#payment-processor-comparison)
 - [Pricing Strategies](#pricing-strategies)
   - [Psychological Pricing](#psychological-pricing)
   - [Tiered Pricing](#tiered-pricing)
-  - [Annual vs. Monthly](#annual-vs-monthly)
-  - [Price Anchoring](#price-anchoring)
-- [Growth Strategies](#growth-strategies)
+  - [Trial Periods](#trial-periods)
+  - [Annual vs Monthly](#annual-vs-monthly)
+- [Growth Tactics](#growth-tactics)
   - [Chrome Web Store Optimization](#chrome-web-store-optimization)
-  - [User Onboarding](#user-onboarding)
-  - [Email List Building](#email-list-building)
-  - [Referral Programs](#referral-programs)
+  - [User Reviews & Ratings](#user-reviews--ratings)
+  - [Update Changelogs](#update-changelogs)
+  - [Cross-Promotion](#cross-promotion)
 - [Case Studies](#case-studies)
   - [Grammarly](#grammarly)
-  - [Notion Web Clipper](#notion-web-clipper)
-  - [Loom](#loom)
+  - [Honey](#honey)
+  - [LastPass](#lastpass)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Quick Start
 
-1. **Clone this playbook:**
+1. **Clone this repository**
    ```bash
    git clone https://github.com/theluckystrike/monetization-playbook.git
+   cd monetization-playbook
    ```
 
-2. **Choose your revenue model:**
-   - New to monetization? Start with [Freemium](#freemium)
-   - Established user base? Consider [Subscription](#subscription)
+2. **Choose your revenue model**
+   - Review the [Revenue Models](#revenue-models) section
+   - Consider your user base and extension type
 
-3. **Set up payments:**
-   - See [Payment Integration](#payment-integration) for provider comparison
+3. **Set up payments**
+   - Compare [Payment Integration](#payment-integration) options
+   - Create merchant accounts
 
-4. **Optimize for growth:**
-   - Apply [Growth Strategies](#growth-strategies) to scale your revenue
+4. **Implement pricing**
+   - Apply [Pricing Strategies](#pricing-strategies)
+   - Test different price points
 
-## Why Monetize Your Extension?
+5. **Optimize for growth**
+   - Follow [Growth Tactics](#growth-tactics)
+   - Monitor analytics
 
-Browser extensions serve millions of users daily. Yet most extension developers struggle to turn their work into sustainable income. This playbook aggregates proven strategies, integration guides, and real-world case studies to help you:
+## Why This Playbook
 
-- **Generate sustainable revenue** from your extension
-- **Choose the right monetization model** for your audience
-- **Integrate payments** quickly and securely
-- **Optimize pricing** for maximum conversion
-- **Scale user acquisition** profitably
+Browser extensions are a unique product category. Unlike traditional SaaS, you have:
+
+- **Direct access to users** through browser marketplaces
+- **High conversion potential** due to contextual relevance
+- **Unique data access** for personalization
+- **Lower customer acquisition costs** than web apps
+
+This playbook distills proven strategies from successful extensions into actionable guidance.
 
 ## Revenue Models
 
 ### Freemium
 
-The freemium model offers a basic version for free with premium features locked behind payment. This model:
+The freemium model offers basic features for free with premium upgrades. This is the most common model for browser extensions.
 
-- **Best for:** Extensions with clear feature differentiation
-- **Pros:** Low barrier to entry, viral potential, word-of-mouth growth
-- **Cons:** Converting free users to paid requires strong value proposition
+**Best for:**
+- Productivity tools
+- Utility extensions
+- Content enhancement tools
 
-**Implementation Tips:**
-- Offer 7-14 days of premium features as a trial
-- Use usage-based triggers (e.g., "You've used 10 premium features — upgrade to unlock more")
-- Ensure the free tier provides genuine value
+**Key considerations:**
+- Free tier should demonstrate clear value
+- Premium features must feel essential
+- Avoid "crippled" free versions that feel broken
 
 ### Subscription
 
-Recurring revenue through monthly or annual subscriptions. This model:
+Recurring revenue through monthly or annual subscriptions.
 
-- **Best for:** Extensions with ongoing value delivery
-- **Pros:** Predictable revenue, higher LTV, easier financial planning
-- **Cons:** Higher churn risk, requires continuous value delivery
+**Best for:**
+- Tools with ongoing value
+- Content that requires updates
+- Services with server costs
 
-**Implementation Tips:**
-- Offer annual plans with 20-40% discount
-- Include early-bird pricing for existing users
-- Provide exclusive features for subscribers
+**Key considerations:**
+- Requires continuous value delivery
+- Churn management is critical
+- Annual plans improve LTV significantly
 
 ### One-Time Purchase
 
-Single payment for lifetime access. This model:
+Single payment for lifetime access.
 
-- **Best for:** Utility-focused extensions with defined feature sets
-- **Pros:** Simple for users, immediate revenue, no subscription fatigue
-- **Cons:** No recurring revenue, requires constant new user acquisition
+**Best for:**
+- Specialized tools
+- Niche utilities
+- Users who prefer ownership
 
-**Implementation Tips:**
-- Bundle with lifetime updates
-- Offer upgrade path to future versions
-- Consider tiered editions (Standard, Pro, Ultimate)
-
-### Affiliate & Referral
-
-Earn commissions by recommending products or services. This model:
-
-- **Best for:** Extensions in productivity, finance, or shopping niches
-- **Pros:** No direct cost to users, passive income potential
-- **Cons:** Requires trust, niche-dependent
-
-**Implementation Tips:**
-- Disclose affiliate relationships transparently
-- Recommend products you genuinely use and trust
-- Integrate recommendations contextually within the extension
+**Key considerations:**
+- No recurring revenue
+- Requires large user base
+- May need expansion packs
 
 ### Ad-Supported
 
-Display ads within your extension. This model:
+Display advertisements within the extension interface.
 
-- **Best for:** High-traffic extensions with engaged users
-- **Pros:** Revenue without user payment friction
-- **Cons:** User experience impact, privacy concerns, ad-blocker resistance
+**Best for:**
+- High-usage utilities
+- Content-focused extensions
+- Large user bases
 
-**Implementation Tips:**
-- Use non-intrusive ad formats
-- Respect user privacy and data
-- Consider opt-in ad-supported tier
+**Key considerations:**
+- User experience impact
+- Ad blocker detection
+- Privacy concerns
 
-### White-Label & Enterprise
+### Affiliate & Referral
 
-License your extension to businesses for custom branding. This model:
+Earn commissions by recommending products or services.
 
-- **Best for:** B2B-focused extensions with unique IP
-- **Pros:** High revenue per customer, enterprise deals
-- **Cons:** Sales cycle length, support overhead
+**Best for:**
+- Shopping assistants
+- Deal finders
+- Price comparison tools
 
-**Implementation Tips:**
-- Create clear enterprise pricing tiers
-- Offer SLA guarantees
-- Provide dedicated support channels
+**Key considerations:**
+- Transparency requirements
+- Trust maintenance
+- Compliance with browser store policies
 
 ## Payment Integration
 
 ### Stripe
 
-**Overview:** Industry-leading payment processor with robust APIs.
+The most popular payment processor for developers.
 
 **Pros:**
+- Excellent developer experience
 - Extensive documentation
-- Extensive developer tooling
-- Strong security and compliance
+- Low fees (2.9% + 30¢)
 
 **Cons:**
-- Requires more setup for digital products
-- May need additional tools for subscription management
+- Requires more setup for digital goods
+- May need separate merchant account
 
-**Resources:**
-- [Stripe Docs](https://stripe.com/docs)
-- [Stripe Atlas](https://stripe.com/atlas) for company formation
+**Implementation:**
+```javascript
+const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
 
-### LemonSqueezy
-
-**Overview:** All-in-one digital product platform optimized for creators.
-
-**Pros:**
-- Built for digital products and SaaS
-- Includes tax handling (global compliance)
-- Easy subscription management
-
-**Cons:**
-- Smaller ecosystem than Stripe
-- Less customization for enterprise flows
-
-**Resources:**
-- [LemonSqueezy Docs](https://docs.lemonsqueezy.com)
+async function createCheckoutSession(priceId, customerEmail) {
+  const session = await stripe.checkout.sessions.create({
+    payment_method_types: ['card'],
+    line_items: [{ price: priceId, quantity: 1 }],
+    mode: 'subscription',
+    customer_email: customerEmail,
+    success_url: 'https://yoursite.com/success',
+    cancel_url: 'https://yoursite.com/cancel',
+  });
+  return session.url;
+}
+```
 
 ### Paddle
 
-**Overview:** Merchant of record handling global payments and taxes.
+All-in-one payment solution optimized for software.
 
 **Pros:**
-- Handles tax compliance automatically
-- Global payment methods
-- Easy integration
+- Handles VAT/sales tax automatically
+- No merchant account needed
+- Good for global sales
 
 **Cons:**
-- Higher fees than Stripe
-- Less control over checkout experience
+- Higher fees (5% + 50¢)
+- Less flexible than Stripe
 
-**Resources:**
-- [Paddle Docs](https://developer.paddle.com)
+### Lemon Squeezy
 
-### Gumroad
-
-**Overview:** Simple payment platform for creators.
+Modern alternative for digital products.
 
 **Pros:**
-- Extremely simple setup
-- Great for one-time purchases
-- Built-in audience features
+- Excellent for digital goods
+- Built-in affiliate management
+- Reasonable fees (5% + 50¢)
 
 **Cons:**
-- Limited advanced features
-- Higher revenue share on free tier
+- Newer platform
+- Smaller ecosystem
 
-**Resources:**
-- [Gumroad Docs](https://help.gumroad.com)
+### Payment Processor Comparison
+
+| Feature | Stripe | Paddle | Lemon Squeezy |
+|---------|--------|--------|---------------|
+| Transaction Fee | 2.9% + 30¢ | 5% + 50¢ | 5% + 50¢ |
+| VAT Handling | Manual | Included | Included |
+| Merchant Account | Required | Included | Included |
+| Digital Products | Good | Excellent | Excellent |
+| Subscription Management | Excellent | Good | Good |
 
 ## Pricing Strategies
 
 ### Psychological Pricing
 
-- **Charm pricing:** Use $9.99 instead of $10
-- **Round numbers:** $29, $49, $99 for premium tiers
-- **Price stacking:** $9/$19/$49 instead of $10/$20/$50
+- **Charm pricing**: $9.99 instead of $10
+- **Round number avoidance**: $47 instead of $50
+- **Anchor pricing**: Show original price next to discounted
 
 ### Tiered Pricing
 
-Structure your pricing into clear tiers:
+Create clear value differentiation between tiers:
+
+**Example Tier Structure:**
 
 | Tier | Price | Features |
 |------|-------|----------|
-| Free | $0 | Core functionality |
-| Pro | $9/mo | Advanced features |
-| Team | $29/mo | Collaboration, SSO |
-| Enterprise | Custom | Dedicated support, SLA |
+| Free | $0 | Basic features, limited use |
+| Pro | $9/mo | Full features, unlimited |
+| Team | $29/mo | Team management, SSO |
 
-### Annual vs. Monthly
+### Trial Periods
 
-- Offer 20-40% discount for annual billing
-- Default to annual on checkout
-- Highlight savings prominently
+- **7-day trials**: Lower commitment, good conversion
+- **14-day trials**: Better for complex products
+- **30-day money-back**: Highest trust, more refunds
 
-### Price Anchoring
+### Annual vs Monthly
 
-- Show full price next to discounted price
-- Display "most popular" badge on middle tier
-- Use social proof near pricing
+Offer discounts for annual billing:
+- **20% discount**: Standard industry practice
+- **30% discount**: Aggressive but effective for growth
 
-## Growth Strategies
+## Growth Tactics
 
 ### Chrome Web Store Optimization
 
-**Title:**
-- Include primary keyword + differentiator
-- Keep under 45 characters
-- Test variations
+Your store listing is your primary acquisition channel.
+
+**Title optimization:**
+- Include primary keyword
+- Keep under 50 characters
+- Front-load important words
 
 **Description:**
-- Lead with value proposition
-- Use bullet points for features
-- Include use cases
+- First 2 lines are most visible
+- Use bullet points
+- Include feature list
+- Add use cases
 
 **Screenshots:**
-- Show real UI, not mockups
-- Tell a story: problem → solution → result
-- Include alt text
+- Show actual UI
+- Highlight key features
+- Use consistent branding
 
-**Categories:**
-- Choose the most relevant category
-- Consider less competitive categories
+### User Reviews & Ratings
 
-### User Onboarding
+Reviews significantly impact conversion rates.
 
-1. **First-run experience:** Show value within 30 seconds
-2. **Progressive disclosure:** Reveal features over time
-3. **In-app guidance:** Tooltips, walkthroughs, templates
-4. **Success moments:** Celebrate user achievements
+**Encouraging reviews:**
+- Timing matters: ask after successful actions
+- Make it easy: direct link to store page
+- Follow up: gentle reminders
 
-### Email List Building
+**Managing negative reviews:**
+- Respond promptly
+- Address specific issues
+- Offer support channels
 
-- Offer free resources (templates, guides, mini-courses)
-- Use exit-intent popups (respectful timing)
-- Segment by user behavior
-- Provide consistent value in newsletters
+### Update Changelogs
 
-### Referral Programs
+Regular updates signal active development.
 
-- Reward both referrer and referee
-- Make sharing frictionless
-- Track and optimize conversion funnels
+**Best practices:**
+- Detail what's new
+- Show user appreciation
+- Highlight bug fixes
+- Include upgrade prompts
+
+### Cross-Promotion
+
+Partner with complementary extensions.
+
+**Ideas:**
+- Bundle deals with related tools
+- Feature swap in newsletters
+- Joint webinars or content
 
 ## Case Studies
 
 ### Grammarly
 
-**Model:** Freemium + Subscription
+**Revenue model:** Freemium + Subscription
 
-**Key Insights:**
-- Strong free tier drives massive adoption
-- Premium differentiation through accuracy and advanced suggestions
-- Email marketing nurtures free users toward upgrade
+**Key learnings:**
+- Free tier is genuinely useful
+- Premium feels essential for serious users
+- Continuous product improvement drives upgrades
 
-**Revenue:** Estimated $100M+ annually
+**Results:**
+- 30+ million daily active users
+- Significant subscription conversion rate
 
-### Notion Web Clipper
+### Honey
 
-**Model:** Freemium (tied to Notion subscription)
+**Revenue model:** Affiliate + Premium (Honey Gold)
 
-**Key Insights:**
-- Extension as product-led growth for main platform
-- Seamless integration encourages Notion signup
-- No direct monetization — drives enterprise adoption
+**Key learnings:**
+- Zero-friction affiliate model
+- Points system increases engagement
+- User trust is paramount
 
-**Revenue:** Drives significant enterprise revenue for Notion
+**Results:**
+- Acquired by PayPal for $4 billion
+- 17+ million active users
 
-### Loom
+### LastPass
 
-**Model:** Freemium + Subscription
+**Revenue model:** Freemium + Subscription
 
-**Key Insights:**
-- Free tier with generous limits drives viral adoption
-- Team features create organizational pull
-- Integration with productivity suites increases stickiness
+**Key learnings:**
+- Free tier drives adoption
+- Cross-device sync as premium hook
+- Enterprise upsell is significant revenue
 
-**Revenue:** $150M+ Series C valuation
+**Results:**
+- 25+ million users
+- Strong enterprise revenue
+
+---
 
 ## Contributing
 
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for:
+Contributions welcome! Whether you want to add a new chapter, share a case study, or fix a typo.
 
-- How to add new chapters
-- How to submit case studies
-- Writing style guidelines
-- Pull request process
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+MIT License — see [LICENSE](LICENSE) for details.
 
 ---
 

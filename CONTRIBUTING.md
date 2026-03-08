@@ -1,203 +1,138 @@
-# Contributing to Extension Monetization Playbook
+# Contributing to the Extension Monetization Playbook
 
-Thank you for your interest in improving this playbook! This guide will help you contribute effectively.
-
-## Table of Contents
-
-- [Ways to Contribute](#ways-to-contribute)
-- [Getting Started](#getting-started)
-- [Pull Request Process](#pull-request-process)
-- [Writing Style Guide](#writing-style-guide)
-- [Code of Conduct](#code-of-conduct)
+Thank you for your interest in contributing! This playbook thrives on community knowledge sharing.
 
 ## Ways to Contribute
 
-### 1. Add New Chapters
+### 📚 New Chapters
+Add comprehensive chapters on monetization topics not yet covered, such as:
+- Alternative revenue models
+- Specific marketplace strategies (Firefox, Safari, Edge)
+- Analytics and metrics
+- Legal and compliance considerations
 
-Have expertise in a monetization topic we haven't covered? Propose a new chapter covering:
-
-- Specific revenue models
-- Payment provider integrations
-- Pricing strategies
-- Growth tactics
-- Legal considerations
-
-### 2. Submit Case Studies
-
-Share real-world examples of extension monetization:
-
-- Company background
-- Revenue model chosen
-- Key success factors
+### 📖 Case Studies
+Share detailed case studies of successful extensions:
+- Revenue models used
+- Key growth strategies
 - Lessons learned
-- Metrics (if available)
+- Metrics and results (where available)
 
-### 3. Correct Errors
+### ✏️ Improvements
+- Correct factual errors
+- Update outdated information
+- Add new strategies or tactics
+- Improve existing content clarity
 
-Found outdated information or typos? Submit a fix:
+## Pull Request Workflow
 
-- Factual corrections
-- Link updates
-- Grammar and formatting
-- Broken examples
+### 1. Fork the Repository
 
-### 4. Improve Existing Content
+Click the "Fork" button on the repository page, then clone your fork:
 
-Enhance what's already here:
+```bash
+git clone https://github.com/YOUR_USERNAME/monetization-playbook.git
+cd monetization-playbook
+```
 
-- Add updated statistics
-- Include new platforms
-- Expand sections with more detail
-- Improve readability
-
-## Getting Started
-
-### Fork the Repository
-
-1. Click the **Fork** button on the repository page
-2. Clone your fork locally:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/monetization-playbook.git
-   cd monetization-playbook
-   ```
-
-### Create a Branch
+### 2. Create a Feature Branch
 
 Create a descriptive branch for your changes:
 
 ```bash
-# For new chapters
-git checkout -b content/new-revenue-model
-
-# For case studies
-git checkout -b case-study/company-name
-
-# For fixes
-git checkout -b fix/description-of-fix
+git checkout -b contribution/your-feature-name
 ```
 
-### Make Your Changes
+Or for documentation:
+```bash
+git checkout -b docs/improved-pricing-section
+```
 
-1. Edit the relevant files
-2. Follow our [Writing Style Guide](#writing-style-guide)
-3. Test any code examples
-4. Verify links work
+### 3. Make Your Changes
 
-### Submit a Pull Request
+Edit the relevant files. This is a Markdown-based playbook, so all content lives in `.md` files.
 
-1. Push your branch:
-   ```bash
-   git push origin your-branch-name
-   ```
+### 4. Commit with Clear Messages
 
-2. Open a Pull Request against the `main` branch
+Write clear, descriptive commit messages:
 
-3. Fill in the PR template with:
-   - Description of changes
-   - Related issue (if applicable)
-   - Screenshots (for UI changes)
-   - Testing steps
+```bash
+git add README.md
+git commit -m "Add case study: Grammarly monetization strategy"
+```
 
-## Pull Request Process
+### 5. Push and Create PR
 
-### Review Criteria
+```bash
+git push origin contribution/your-feature-name
+```
 
-Your PR will be reviewed for:
-
-- **Accuracy:** Information is correct and up-to-date
-- **Relevance:** Content fits the playbook's scope
-- **Clarity:** Writing is clear and professional
-- **Formatting:** Follows our style guide
-- **Originality:** No copyrighted content without permission
-
-### Response Time
-
-- Initial review: Within 7 days
-- Feedback: Constructive and actionable
-- Merging: After approval from maintainer
-
-### What Gets Accepted
-
-- Well-researched content with sources
-- Practical, actionable advice
-- Real-world examples and case studies
-- Corrections that improve accuracy
-
-### What Might Need Work
-
-- Unsubstantiated claims
-- Overly promotional content
-- Duplicate information already covered
-- Content outside the playbook's scope
+Then open a Pull Request on GitHub.
 
 ## Writing Style Guide
 
-### Tone
-
-- **Professional yet approachable** — like a knowledgeable peer
-- **Action-oriented** — focus on what readers can do
-- **Evidence-based** — support claims with data or examples
+### Tone and Voice
+- **Professional but accessible**: Avoid jargon where possible
+- **Action-oriented**: Focus on practical advice
+- **Evidence-based**: Support claims with examples or data
 
 ### Formatting
 
-- Use **Markdown** for all content
-- **Headers** for hierarchy (H1 for title, H2 for sections, H3 for subsections)
-- **Lists** for steps and bullet points
-- **Code blocks** with language labels for examples
-- **Tables** for comparisons and structured data
+#### Headings
+- Use `#` for main titles
+- Use `##` for major sections
+- Use `###` for subsections
 
-### Language
+#### Lists
+- Use bullet points for unordered items
+- Use numbered lists for sequential steps
 
-- Write in **American English**
-- Use **active voice**
-- Keep sentences **concise**
-- Avoid jargon; define technical terms when necessary
-- Use "you" to address the reader directly
+#### Code Blocks
+Use fenced code blocks with language identifiers:
+
+```javascript
+// Example code
+const example = "code block";
+```
+
+#### Tables
+Use Markdown tables for comparisons:
+
+```markdown
+| Header 1 | Header 2 |
+|----------|----------|
+| Cell 1   | Cell 2   |
+```
 
 ### Content Structure
 
-Each chapter should include:
+When adding new sections, include:
 
-1. **Introduction** — What this section covers and why it matters
-2. **Main content** — Detailed explanation with examples
-3. **Key takeaways** — Summary of main points
-4. **Resources** — Links to further reading
+1. **Overview**: What the topic is and why it matters
+2. **Implementation**: How to execute the strategy
+3. **Best practices**: Tips for success
+4. **Common pitfalls**: What to avoid
 
-### Links
+## Review Criteria
 
-- Use descriptive link text (not "click here")
-- Prefer official documentation for external links
-- Verify links are working before submitting
+Pull requests are reviewed based on:
 
-### Examples
+- **Accuracy**: Information is correct and up-to-date
+- **Relevance**: Content applies to browser extension monetization
+- **Quality**: Well-written and properly formatted
+- **Originality**: No copyrighted material without permission
+- **Value**: Provides actionable insights
 
-Include real or realistic examples:
+## Getting Help
 
-- **Do:** "Grammarly uses a freemium model with 3 tiers..."
-- **Don't:** "Here's an example of how it might work..."
+- Open an issue for questions
+- Use discussions for ideas
+- Check existing issues before creating new ones
 
-## Code of Conduct
+## Attribution
 
-### Our Pledge
-
-We are committed to making this a welcoming space for everyone. Please:
-
-- Be respectful and inclusive
-- Welcome newcomers and help them learn
-- Accept constructive criticism gracefully
-- Focus on what's best for the community
-
-### Unacceptable Behavior
-
-- Harassment of any kind
-- Personal or political attacks
-- Publishing others' private information
-- Spam or promotional content
-
-### Enforcement
-
-Instances of abusive behavior should be reported to the maintainers. All complaints will be reviewed and addressed appropriately.
+Contributors will be acknowledged in the README.md. By contributing, you agree to license your content under the project's MIT license.
 
 ---
 
-Thank you for contributing to the Extension Monetization Playbook!
+Ready to contribute? [Open a Pull Request](https://github.com/theluckystrike/monetization-playbook/pulls)
