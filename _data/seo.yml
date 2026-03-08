@@ -1,0 +1,27 @@
+# SEO Meta Descriptions for Monetization Playbook
+# Each description must include "Chrome Extension" and "monetization" and be under 160 characters
+
+articles:
+  freemium-model:
+    title: "Chrome Extension Freemium Monetization"
+    meta_description: "Learn freemium monetization strategies for Chrome Extensions. Convert free users to paying customers with proven techniques."
+
+  subscription-model:
+    title: "Chrome Extension Subscription Monetization"
+    meta_description: "Master subscription monetization for Chrome Extensions. Build predictable recurring revenue with tiered pricing strategies."
+
+  ad-supported:
+    title: "Chrome Extension Ad Monetization"
+    meta_description: "Explore ad monetization strategies for Chrome Extensions. Maximize revenue through advertising while balancing user experience."
+
+  one-time-purchase:
+    title: "Chrome Extension One-Time Purchase Monetization"
+    meta_description: "Learn one-time purchase monetization for Chrome Extensions. Maximize revenue with single-payment pricing strategies."
+
+  affiliate-marketing:
+    title: "Chrome Extension Affiliate Monetization"
+    meta_description: "Discover affiliate monetization strategies for Chrome Extensions. Earn commissions through partnerships and product recommendations."
+
+  in-app-purchases:
+    title: "Chrome Extension In-App Purchase Monetization"
+    meta_description: "Boost Chrome Extension monetization with in-app purchases. Sell add-ons and upgrades to increase revenue per user."
