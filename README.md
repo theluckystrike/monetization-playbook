@@ -1,176 +1,156 @@
-# Chrome Extension Monetization Playbook
+# Monetization Playbook
 
-<p align="center">
-  <a href="https://github.com/theluckystrike/monetization-playbook/stargazers">
-    <img src="https://img.shields.io/github/stars/theluckystrike/monetization-playbook?style=flat&color=FFD700" alt="Stars">
-  </a>
-  <a href="https://github.com/theluckystrike/monetization-playbook/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/theluckystrike/monetization-playbook?color=blue" alt="License">
-  </a>
-  <a href="https://github.com/theluckystrike/monetization-playbook/commits">
-    <img src="https://img.shields.io/github/last-commit/theluckystrike/monetization-playbook?color=green" alt="Last Commit">
-  </a>
-  <a href="https://theluckystrike.github.io/monetization-playbook/">
-    <img src="https://img.shields.io/badge/View-Documentation-blue" alt="Documentation">
-  </a>
-</p>
+[![license: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/theluckystrike/monetization-playbook)](https://github.com/theluckystrike/monetization-playbook/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/theluckystrike/monetization-playbook)](https://github.com/theluckystrike/monetization-playbook/issues)
 
-> 30+ strategies for monetizing Chrome extensions — pricing, ads, freemium, subscriptions, and more
+Open-source playbook for monetizing browser extensions — revenue models, payments, pricing, and growth strategies proven by real-world case studies.
 
-The **Chrome Extension Monetization Playbook** is a comprehensive guide for developers looking to turn their Chrome extensions into sustainable revenue streams. Whether you're just starting out or optimizing an existing extension, this playbook covers every major monetization strategy with practical implementation guidance.
+## What is the Monetization Playbook?
 
----
+The Monetization Playbook is a comprehensive, open-source guide for developers who want to turn their browser extensions into sustainable revenue streams. Whether you're launching your first extension or looking to optimize an existing one, this playbook provides battle-tested strategies, implementation guides, and case studies from successful extension developers.
 
-## 📋 Table of Contents
+This resource covers everything from choosing the right revenue model to implementing payments, optimizing pricing, and scaling your user base. It's designed to be practical, actionable, and grounded in real-world results — not just theory.
 
-### Core Monetization Strategies
-- [Freemium Models](#freemium-models) — Convert free users to paying customers
-- [Subscription Plans](#subscription-plans) — Recurring revenue with tiered pricing
-- [Advertising Models](#advertising-models) — Ad-supported monetization
-- [Affiliate Programs](#affiliate-programs) — Commission-based earnings
-- [One-Time Purchases](#one-time-purchases) — Lifetime license sales
-- [Enterprise Licensing](#enterprise-licensing) — B2B revenue strategies
+## Table of Contents
 
-### Additional Topics
-- [In-App Purchases](#in-app-purchases) — Microtransactions & upgrades
-- [Pay What You Want](#pay-what-you-want) — Flexible pricing
-- [Donation-Based Funding](#donation-based-funding) — Community support
-- [White-Label Licensing](#white-label-licensing) — B2B rebranding
+- [What is the Monetization Playbook?](#what-is-the-monetization-playbook)
+- [What's Inside](#whats-inside)
+  - [Revenue Models](#revenue-models)
+  - [Payment Integration](#payment-integration)
+  - [Pricing Strategies](#pricing-strategies)
+  - [Growth Tactics](#growth-tactics)
+  - [Case Studies](#case-studies)
+- [Quick Start](#quick-start)
+- [Contributing](#contributing)
+- [License](#license)
+- [Built by Zovo](#built-by-zovo)
 
-### Implementation Guides
-- [Payment Processing](#payment-processing) — Chrome Web Store & external processors
-- [License Management](#license-management) — Key generation & validation
-- [Feature Gating](#feature-gating) — Technical implementation
-- [Pricing Optimization](#pricing-optimization) — Maximizing revenue
+## What's Inside
 
----
+### Revenue Models
 
-## 🎯 Key Topics
+Learn which monetization strategy fits your extension and audience:
 
-| Strategy | Best For | Difficulty |
-|----------|----------|------------|
-| **Freemium** | Broad audience, product-led growth | ⭐⭐ |
-| **Subscriptions** | Continuous value, predictable revenue | ⭐⭐⭐ |
-| **Advertising** | Large user base, non-paying users | ⭐ |
-| **Affiliate** | Complementary products | ⭐ |
-| **One-Time Purchase** | Finite, complete solutions | ⭐⭐ |
-| **Enterprise** | Business tools, teams | ⭐⭐⭐⭐ |
+- **Subscription Model** — Recurring revenue with predictable cash flow
+- **Freemium Model** — Convert free users to paid with tiered features
+- **One-time Purchase** — Lifetime license approach for straightforward value
+- **Affiliate Model** — Earn commissions by recommending products
+- **Sponsorship Model** — Partner with brands for sponsored content
+- **Extension as a Service** — Build a SaaS product powered by your extension
 
----
+### Payment Integration
 
-## 🚀 Quick Start
+Implementation guides for accepting payments securely:
 
-### 1. Choose Your Monetization Model
+- **Stripe Integration** — Connect Stripe for flexible payment processing
+- **Chrome Web Store Payments** — Leverage Google's built-in billing system
+- **License Key System** — Prevent piracy with robust key validation
+- **Server-side Validation** — Secure your validation logic
+- **Handling Refunds** — Create fair refund policies that protect your business
+- **Trial Implementation** — Offer free trials to increase conversions
 
-```markdown
-# Start here if you're new to extension monetization
+### Pricing Strategies
 
-🔰 New to monetization?
-   → Start with Freemium (lowest barrier to entry)
+Optimize your pricing for maximum revenue:
 
-💰 Looking for recurring revenue?
-   → Try Subscriptions (predictable income)
+- **Psychological Pricing** — Use pricing psychology to increase conversions
+- **Tiered Pricing** — Structure plans for different user segments
+- **Annual vs Monthly** — Incentivize annual plans for better retention
+- **Price Testing** — A/B test prices to find the sweet spot
+- **Regional Pricing** — Adjust pricing for different markets
 
-📈 Have a large user base?
-   → Consider Advertising (scale with users)
+### Growth Tactics
 
-🏢 Building for businesses?
-   → Explore Enterprise Licensing (high LTV)
-```
+Scale your user base and increase revenue:
 
-### 2. Review Implementation Checklist
+- **Chrome Web Store SEO** — Optimize your listing for discoverability
+- **Content Marketing** — Attract users through valuable content
+- **Community Building** — Grow a loyal user base
+- **Review Acquisition** — Build social proof with more reviews
+- **Cross-promotion** — Promote across your extension portfolio
+- **User Retention** — Keep users engaged and paying longer
+- **Upselling Strategies** — Increase revenue from existing customers
 
-Before launching:
-- [ ] Define clear value proposition for paid features
-- [ ] Set transparent pricing (research competitors)
-- [ ] Choose payment processor (Chrome Web Store or Paddle)
-- [ ] Design seamless free-to-paid upgrade flow
-- [ ] Prepare support infrastructure
-- [ ] Implement analytics for conversion tracking
-- [ ] Create privacy policy & terms of service
+### Case Studies
 
-### 3. Access the Full Guides
+Learn from real-world success stories:
 
-Visit the live playbook: **[theluckystrike.github.io/monetization-playbook](https://theluckystrike.github.io/monetization-playbook)**
+- **Zovo Bundle Case Study** — How bundling multiple extensions increased revenue 3x
+- **Tab Suspender Pro** — Solo developer success with a focused niche product
+- **Belike Native Case Study** — B2B approach targeting enterprise customers
 
----
+## Quick Start
 
-## 📚 Available Articles
+### Reading the Playbook
 
-### The Ultimate Guide
-- [The Ultimate Chrome Extension Monetization Guide (2026)](https://theluckystrike.github.io/monetization-playbook/ultimate-monetization-guide.html)
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/theluckystrike/monetization-playbook.git
+   cd monetization-playbook
+   ```
 
-### Individual Strategy Guides
-- [Freemium Model Best Practices](https://theluckystrike.github.io/monetization-playbook/articles/freemium-model)
-- [Subscription Pricing Strategies](https://theluckystrike.github.io/monetization-playbook/articles/subscription-model)
-- [Ad-Supported Monetization](https://theluckystrike.github.io/monetization-playbook/articles/ad-supported)
-- [One-Time Purchase Guide](https://theluckystrike.github.io/monetization-playbook/articles/one-time-purchase)
-- [Affiliate Marketing for Extensions](https://theluckystrike.github.io/monetization-playbook/articles/affiliate-marketing)
-- [In-App Purchases](https://theluckystrike.github.io/monetization-playbook/articles/in-app-purchases)
+2. **Navigate the chapters:**
+   - Start with a revenue model that matches your extension type
+   - Move to payment integration once you've chosen your model
+   - Apply pricing strategies to optimize your offer
+   - Use growth tactics to scale your reach
 
----
+3. **Build locally (optional):**
+   This is a Jekyll-based documentation site. To preview locally:
+   ```bash
+   gem install jekyll bundler
+   bundle install
+   bundle exec jekyll serve
+   ```
+   Then open `http://localhost:4000` in your browser.
 
-## 🔗 Related Repositories
+### Using as a Reference
 
-This playbook is part of a comprehensive Chrome extension development ecosystem:
+Each section is designed to be independent. Jump straight to the topic you need:
 
-| Repository | Description |
-|------------|-------------|
-| [chrome-extension-guide](https://github.com/theluckystrike/chrome-extension-guide) | Complete guide to building Chrome extensions |
-| [extension-monetization-playbook](https://github.com/theluckystrike/extension-monetization-playbook) | Advanced monetization strategies |
-| [chrome-extension-popup-starter](https://github.com/theluckystrike/chrome-extension-popup-starter) | Production-ready extension template |
+- Unsure which model to choose? → Start with **Revenue Models**
+- Ready to accept payments? → Check **Payment Integration**
+- Need more paying users? → Explore **Growth Tactics**
 
----
+## Contributing
 
-## 🤝 Contributing
+We welcome contributions from the community! Whether you want to add a new case study, correct a typo, or share a new monetization strategy, your input makes this playbook better for everyone.
 
-Found a typo or want to add a new monetization strategy? Contributions are welcome!
+Before submitting a pull request, please read our [Contributing Guide](CONTRIBUTING.md) for:
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-strategy`)
-3. Commit your changes
-4. Push to the branch
-5. Open a Pull Request
+- Forking and branching guidelines
+- Code and content style standards
+- Pull request process
+- Issue templates
 
----
+### Ways to Contribute
 
-## 📄 License
+- **Add new strategies** — Share monetization approaches that have worked for you
+- **Write case studies** — Document your success story
+- **Improve existing content** — Fix errors, clarify explanations, add examples
+- **Translate** — Help make this playbook accessible to more developers
+- **Report issues** — Let us know when something is outdated or incorrect
+
+## License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
----
-
-## ⚡️ Quick Comparison
-
-| Model | Revenue Type | Predictability | User Acquisition |
-|-------|--------------|-----------------|-------------------|
-| Freemium | Conversion-based | Medium | High |
-| Subscription | Recurring | High | Medium |
-| Advertising | Usage-based | Low | Very High |
-| Affiliate | Commission | Medium | Medium |
-| One-Time | Single payment | Medium | Medium |
-| Enterprise | Contract-based | High | Low |
+This means you're free to use, modify, and distribute this playbook for both personal and commercial projects. We only ask that you include the original copyright notice when sharing derivative work.
 
 ---
 
-## 🔮 Future Trends
+## Built by Zovo
 
-The Chrome extension ecosystem is evolving. Stay ahead with emerging strategies:
+<a href="https://zovo.one">
+  <img src="https://zovo.one/logo.png" alt="Zovo" width="120" />
+</a>
 
-- **AI-Powered Features** — Premium AI capabilities
-- **Privacy-First Monetization** — Transparent, consent-based approaches
-- **Community-Driven Development** — User-funded roadmap
-- **Integration-Focused** — Bridge between popular tools
+Created by [Zovo](https://zovo.one) — a collection of high-quality browser extensions designed to boost productivity and simplify daily tasks.
 
----
+Explore our extensions:
+- [Tab Group Manager](https://chrome.google.com/webstore/detail/tab-group-manager/) — Organize tabs into visual groups
+- [JSON Toolkit](https://chrome.google.com/webstore/detail/json-toolkit/) — Format, validate, and debug JSON
+- [Session Manager](https://chrome.google.com/webstore/detail/session-manager/) — Save and restore browser sessions
 
-## 📬 Contact
-
-- GitHub: [@theluckystrike](https://github.com/theluckystrike)
-- Website: [theluckystrike.github.io](https://theluckystrike.github.io)
-
----
-
-<p align="center">
-  <strong>Built at <a href="https://zovo.one">zovo.one</a> by <a href="https://github.com/theluckystrike">theluckystrike</a></strong>
-</p>
+Want to build successful browser extensions? Check out our [Chrome Extension Guide](https://github.com/theluckystrike/chrome-extension-guide) for comprehensive development tutorials and best practices.
