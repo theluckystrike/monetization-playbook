@@ -1,0 +1,4 @@
+Sitemap: https://theluckystrike.github.io/monetization-playbook/sitemap.xml
+
+User-agent: *
+Allow: /

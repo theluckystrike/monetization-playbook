@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  {% if site.plugins contains "jekyll-seo-tag" %}
+    {% seo %}
+  {% endif %}
+  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+</head>
+<body>
+  <div class="container">
+    <nav class="sidebar">
+      <h2>Categories</h2>
+      <ul class="nav-list">
+        <li><a href="{{ "/" | relative_url }}">Home</a></li>
+        <li><a href="{{ "/pricing/" | relative_url }}">Pricing Strategies</a></li>
+        <li><a href="{{ "/ads/" | relative_url }}">Advertising</a></li>
+        <li><a href="{{ "/freemium/" | relative_url }}">Freemium Models</a></li>
+        <li><a href="{{ "/subscription/" | relative_url }}">Subscriptions</a></li>
+        <li><a href="{{ "/affiliate/" | relative_url }}">Affiliate Marketing</a></li>
+        <li><a href="{{ "/licensing/" | relative_url }}">Licensing</a></li>
+        <li><a href="{{ "/case-studies/" | relative_url }}">Case Studies</a></li>
+      </ul>
+    </nav>
+    
+    <main class="content">
+      {{ content }}
+    </main>
+  </div>
+  
+  <footer>
+    <p>Built by <a href="https://zovo.one">theluckystrike at zovo.one</a> — <a href="https://zovo.one/tab-suspender-pro">Tab Suspender Pro</a></p>
+  </footer>
+</body>
+</html>
