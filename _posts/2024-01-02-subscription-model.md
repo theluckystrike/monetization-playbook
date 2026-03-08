@@ -2,6 +2,27 @@
 
 Subscription-based Chrome Extension Monetization provides predictable, recurring revenue that can scale your extension business significantly. This comprehensive guide covers everything from pricing tiers to retention strategies that keep subscribers paying month after month.
 
+## Table of Contents
+
+- [The Power of Recurring Revenue](#the-power-of-recurring-revenue)
+- [Practical Examples and Case Studies](#practical-examples-and-case-studies)
+  - [Case Study: Notion's Bundle Strategy](#case-study-notions-bundle-strategy)
+  - [Case Study: LastPass Password Manager](#case-study-lastpass-password-manager)
+  - [Practical Implementation: Project Management Extension](#practical-implementation-project-management-extension)
+- [Implementation Steps](#implementation-steps)
+  - [Step 1: Determine Your Pricing Strategy](#step-1-determine-your-pricing-strategy)
+  - [Step 2: Design Clear Tier Structure](#step-2-design-clear-tier-structure)
+  - [Step 3: Choose Payment Infrastructure](#step-3-choose-payment-infrastructure)
+  - [Step 4: Implement Subscription Management](#step-4-implement-subscription-management)
+  - [Step 5: Create Retention Programs](#step-5-create-retention-programs)
+  - [Step 6: Handle Trial Periods](#step-6-handle-trial-periods)
+- [Key Metrics to Track](#key-metrics-to-track)
+  - [Subscription Health Metrics](#subscription-health-metrics)
+  - [Customer Metrics](#customer-metrics)
+  - [Growth Metrics](#growth-metrics)
+  - [Engagement Metrics](#engagement-metrics)
+- [Pricing Optimization Tips](#pricing-optimization-tips)
+
 ## The Power of Recurring Revenue
 
 Subscription monetization transforms your Chrome extension from a one-time product into a sustainable business model. Unlike one-time purchases, subscriptions create predictable cash flow that enables better planning, allows for continuous improvement, and builds a company valuation based on recurring revenue.

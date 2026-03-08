@@ -2,6 +2,26 @@
 
 Ad-supported Chrome Extension Monetization allows you to generate revenue while offering your extension for free to a wider audience. This guide explores various ad formats, placement strategies, and best practices for balancing user experience with revenue generation.
 
+## Table of Contents
+
+- [Understanding Ad-Supported Monetization](#understanding-ad-supported-monetization)
+- [Practical Examples and Case Studies](#practical-examples-and-case-studies)
+  - [Case Study: Weather Extensions](#case-study-weather-extensions)
+  - [Case Study: News Reader Extensions](#case-study-news-reader-extensions)
+  - [Case Study: Coupon and Deals Extensions](#case-study-coupon-and-deals-extensions)
+- [Implementation Steps](#implementation-steps)
+  - [Step 1: Choose Your Ad Platform](#step-1-choose-your-ad-platform)
+  - [Step 2: Determine Ad Placement](#step-2-determine-ad-placement)
+  - [Step 3: Implement Ad Technology](#step-3-implement-ad-technology)
+  - [Step 4: Configure User Controls](#step-4-configure-user-controls)
+  - [Step 5: Optimize for Performance](#step-5-optimize-for-performance)
+- [Key Metrics to Track](#key-metrics-to-track)
+  - [Revenue Metrics](#revenue-metrics)
+  - [Performance Metrics](#performance-metrics)
+  - [User Experience Metrics](#user-experience-metrics)
+  - [Technical Metrics](#technical-metrics)
+- [Best Practices for Ad-Supported Success](#best-practices-for-ad-supported-success)
+
 ## Understanding Ad-Supported Monetization
 
 Ad-supported models work exceptionally well for Chrome extensions that serve large user bases with freemium features. By removing the payment barrier, you maximize adoption while generating revenue through advertising partnerships. This approach is particularly effective for utility extensions, content aggregation tools, and productivity applications that users interact with regularly throughout their browsing sessions.

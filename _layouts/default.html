@@ -27,6 +27,9 @@
     </nav>
     
     <main class="content">
+      {% if page.title %}
+      <p class="reading-time">📖 {{ content | number_of_words | divided_by: 200 | plus: 1 }} min read</p>
+      {% endif %}
       {{ content }}
     </main>
   </div>

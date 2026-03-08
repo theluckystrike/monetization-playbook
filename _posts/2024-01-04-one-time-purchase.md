@@ -2,6 +2,29 @@
 
 One-time purchase Chrome Extension Monetization offers simplicity for both developers and users, with customers paying once to unlock full functionality forever. This guide covers pricing strategies, feature gating, and conversion optimization for maximizing revenue from single-payment transactions.
 
+## Table of Contents
+
+- [Why Choose One-Time Purchase?](#why-choose-one-time-purchase)
+- [Practical Examples and Case Studies](#practical-examples-and-case-studies)
+  - [Case Study: Todoist's Extension](#case-study-todoists-extension)
+  - [Case Study: Password Manager Extensions](#case-study-password-manager-extensions)
+  - [Case Study: Developer Tools](#case-study-developer-tools)
+- [Implementation Steps](#implementation-steps)
+  - [Step 1: Define Your Product Scope](#step-1-define-your-product-scope)
+  - [Step 2: Set Competitive Pricing](#step-2-set-competitive-pricing)
+  - [Step 3: Design Feature Gating](#step-3-design-feature-gating)
+  - [Step 4: Implement Purchase Flow](#step-4-implement-purchase-flow)
+  - [Step 5: Create Upgrade Pathways](#step-5-create-upgrade-pathways)
+- [Key Metrics to Track](#key-metrics-to-track)
+  - [Sales Metrics](#sales-metrics)
+  - [Customer Metrics](#customer-metrics)
+  - [Product Metrics](#product-metrics)
+  - [Financial Metrics](#financial-metrics)
+- [Pricing Strategy Tips](#pricing-strategy-tips)
+  - [Optimal Price Points](#optimal-price-points)
+  - [Promotional Strategies](#promotional-strategies)
+  - [Handling Updates](#handling-updates)
+
 ## Why Choose One-Time Purchase?
 
 The one-time purchase model provides immediate value for users who prefer ownership over subscription commitments. This approach lowers the psychological barrier to entry since users pay once and own the extension outright. For developers, it simplifies revenue tracking and eliminates the complexity of managing recurring billing.
