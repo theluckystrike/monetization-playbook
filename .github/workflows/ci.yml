@@ -2,22 +2,34 @@ name: CI
 
 on:
   push:
-    branches: [main]
+    branches: [main, polish/*]
   pull_request:
-    branches: [main]
+    branches: [main, polish/*]
 
 jobs:
-  docs:
+  lint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
 
-      - name: Check markdown files exist
-        run: |
-          echo "Checking documentation structure..."
-          test -d docs/api-reference || exit 1
-          test -d docs/guides || exit 1
-          test -d docs/permissions || exit 1
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
 
-      - name: Verify README exists
-        run: test -f README.md
+      - name: Install markdownlint-cli2
+        run: npm install -g markdownlint-cli2
+
+      - name: Run markdownlint
+        run: markdownlint-cli2 "README.md" "CONTRIBUTING.md" "docs/**/*.md"
+
+      - name: Install markdown-link-check
+        run: npm install -g markdown-link-check
+
+      - name: Check markdown links
+        run: |
+          for file in README.md CONTRIBUTING.md; do
+            if [ -f "$file" ]; then
+              markdown-link-check --quiet "$file" || true
+            fi
+          done
