@@ -1,151 +1,203 @@
-# Contributing to the Extension Monetization Playbook
+# Contributing to Extension Monetization Playbook
 
-Thank you for your interest in contributing! This playbook thrives on community knowledge and shared experiences. Whether you're adding a new chapter, sharing a case study, or fixing a typo, your contributions make this resource better for everyone.
+Thank you for your interest in improving this playbook! This guide will help you contribute effectively.
 
----
+## Table of Contents
+
+- [Ways to Contribute](#ways-to-contribute)
+- [Getting Started](#getting-started)
+- [Pull Request Process](#pull-request-process)
+- [Writing Style Guide](#writing-style-guide)
+- [Code of Conduct](#code-of-conduct)
 
 ## Ways to Contribute
 
-### 📚 Add New Content
-- New chapters on monetization strategies
-- Detailed guides on payment integration
-- Pricing strategy deep-dives
+### 1. Add New Chapters
 
-### 📖 Share Case Studies
-- Document your own monetization journey
-- Analyze successful extensions (with permission)
-- Failures and lessons learned
+Have expertise in a monetization topic we haven't covered? Propose a new chapter covering:
 
-### 🔧 Improve Existing Content
-- Correct factual errors
-- Update outdated information
-- Improve clarity and readability
+- Specific revenue models
+- Payment provider integrations
+- Pricing strategies
+- Growth tactics
+- Legal considerations
 
-### 🐛 Fix Issues
-- Typos and grammar
-- Broken links
-- Code snippet errors
+### 2. Submit Case Studies
 
----
+Share real-world examples of extension monetization:
+
+- Company background
+- Revenue model chosen
+- Key success factors
+- Lessons learned
+- Metrics (if available)
+
+### 3. Correct Errors
+
+Found outdated information or typos? Submit a fix:
+
+- Factual corrections
+- Link updates
+- Grammar and formatting
+- Broken examples
+
+### 4. Improve Existing Content
+
+Enhance what's already here:
+
+- Add updated statistics
+- Include new platforms
+- Expand sections with more detail
+- Improve readability
 
 ## Getting Started
 
-### 1. Fork the Repository
+### Fork the Repository
 
-Click the "Fork" button on the repository page to create your own copy.
+1. Click the **Fork** button on the repository page
+2. Clone your fork locally:
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/monetization-playbook.git
+   cd monetization-playbook
+   ```
 
-### 2. Clone Your Fork
-
-```bash
-git clone https://github.com/YOUR_USERNAME/monetization-playbook.git
-cd monetization-playbook
-```
-
-### 3. Create a Branch
+### Create a Branch
 
 Create a descriptive branch for your changes:
 
 ```bash
+# For new chapters
 git checkout -b content/new-revenue-model
-# or
-git checkout -b fix/correct-typo
+
+# For case studies
+git checkout -b case-study/company-name
+
+# For fixes
+git checkout -b fix/description-of-fix
 ```
 
-### 4. Make Your Changes
+### Make Your Changes
 
-Edit the relevant files or add new content. Follow our writing style guide below.
+1. Edit the relevant files
+2. Follow our [Writing Style Guide](#writing-style-guide)
+3. Test any code examples
+4. Verify links work
 
-### 5. Submit a Pull Request
+### Submit a Pull Request
 
-Push your changes and create a pull request against the `main` branch:
+1. Push your branch:
+   ```bash
+   git push origin your-branch-name
+   ```
 
-```bash
-git push origin your-branch-name
-```
+2. Open a Pull Request against the `main` branch
 
-Then open a pull request with:
-- Clear title describing your changes
-- Detailed description of what you added/changed
-- Any relevant context or screenshots
+3. Fill in the PR template with:
+   - Description of changes
+   - Related issue (if applicable)
+   - Screenshots (for UI changes)
+   - Testing steps
 
----
+## Pull Request Process
+
+### Review Criteria
+
+Your PR will be reviewed for:
+
+- **Accuracy:** Information is correct and up-to-date
+- **Relevance:** Content fits the playbook's scope
+- **Clarity:** Writing is clear and professional
+- **Formatting:** Follows our style guide
+- **Originality:** No copyrighted content without permission
+
+### Response Time
+
+- Initial review: Within 7 days
+- Feedback: Constructive and actionable
+- Merging: After approval from maintainer
+
+### What Gets Accepted
+
+- Well-researched content with sources
+- Practical, actionable advice
+- Real-world examples and case studies
+- Corrections that improve accuracy
+
+### What Might Need Work
+
+- Unsubstantiated claims
+- Overly promotional content
+- Duplicate information already covered
+- Content outside the playbook's scope
 
 ## Writing Style Guide
 
-### General Principles
-- **Be practical:** Focus on actionable advice, not theory
-- **Use examples:** Illustrate concepts with real scenarios
-- **Keep it concise:** Get to the point quickly
-- **Stay neutral:** Present options without bias
+### Tone
+
+- **Professional yet approachable** — like a knowledgeable peer
+- **Action-oriented** — focus on what readers can do
+- **Evidence-based** — support claims with data or examples
 
 ### Formatting
 
-#### Headings
-- Use title case for H1 (only one per file)
-- Use sentence case for H2, H3, H4
+- Use **Markdown** for all content
+- **Headers** for hierarchy (H1 for title, H2 for sections, H3 for subsections)
+- **Lists** for steps and bullet points
+- **Code blocks** with language labels for examples
+- **Tables** for comparisons and structured data
 
-#### Code Blocks
-- Use fenced code blocks with language identifier
-- Include comments explaining complex logic
-- Keep code examples focused and runnable
+### Language
 
-#### Lists
-- Use bullet points for unordered items
-- Use numbered lists for sequential steps
-- Keep list items parallel in structure
-
-#### Tables
-- Use markdown tables for comparisons
-- Include headers for all columns
-- Keep columns aligned
+- Write in **American English**
+- Use **active voice**
+- Keep sentences **concise**
+- Avoid jargon; define technical terms when necessary
+- Use "you" to address the reader directly
 
 ### Content Structure
 
 Each chapter should include:
-1. **Introduction** — What you'll learn and why it matters
-2. **Core content** — Main explanation with examples
-3. **Best practices** — Quick actionable tips
-4. **Common pitfalls** — What to avoid
+
+1. **Introduction** — What this section covers and why it matters
+2. **Main content** — Detailed explanation with examples
+3. **Key takeaways** — Summary of main points
+4. **Resources** — Links to further reading
+
+### Links
+
+- Use descriptive link text (not "click here")
+- Prefer official documentation for external links
+- Verify links are working before submitting
+
+### Examples
+
+Include real or realistic examples:
+
+- **Do:** "Grammarly uses a freemium model with 3 tiers..."
+- **Don't:** "Here's an example of how it might work..."
+
+## Code of Conduct
+
+### Our Pledge
+
+We are committed to making this a welcoming space for everyone. Please:
+
+- Be respectful and inclusive
+- Welcome newcomers and help them learn
+- Accept constructive criticism gracefully
+- Focus on what's best for the community
+
+### Unacceptable Behavior
+
+- Harassment of any kind
+- Personal or political attacks
+- Publishing others' private information
+- Spam or promotional content
+
+### Enforcement
+
+Instances of abusive behavior should be reported to the maintainers. All complaints will be reviewed and addressed appropriately.
 
 ---
 
-## Content Guidelines
-
-### Case Studies
-- Must be factual (your own experience or with permission)
-- Include specific numbers when possible
-- Focus on transferable lessons
-- Always ask: "What can readers do differently because of this?"
-
-### Technical Guides
-- Test all code before submitting
-- Include prerequisite information
-- Provide context for configuration options
-- Note any platform-specific considerations
-
-### Revenue Models
-- Present multiple options objectively
-- Include pros and cons
-- Mention ideal use cases
-- Reference real-world examples where possible
-
----
-
-## Review Process
-
-1. **Automated checks** — Our CI runs markdown linting and link checks
-2. **Maintainer review** — We'll review within 48-72 hours
-3. **Feedback** — You may receive suggestions for improvement
-4. **Merge** — Once approved, your changes will be merged
-
----
-
-## Questions?
-
-- Open an [issue](https://github.com/theluckystrike/monetization-playbook/issues) for discussion
-- Join our community (link coming soon)
-- Email: contact@zovo.one
-
----
-
-Thank you for helping build the best resource for browser extension monetization!
+Thank you for contributing to the Extension Monetization Playbook!
