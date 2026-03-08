@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Chrome Extension Ad-Supported — Monetization Strategy"
+description: "Learn how to maximize revenue through advertising in your Chrome extension while maintaining a positive user experience with optimal ad placement strategies."
+---
+
 # Chrome Extension Ad Monetization — Maximizing Revenue Through Advertising
 
 Ad-supported Chrome Extension Monetization allows you to generate revenue while offering your extension for free to a wider audience. This guide explores various ad formats, placement strategies, and best practices for balancing user experience with revenue generation.

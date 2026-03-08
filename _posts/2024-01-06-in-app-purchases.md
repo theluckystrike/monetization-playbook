@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Chrome Extension In-App Purchases — Monetization Strategy"
+description: "Maximize revenue with in-app purchases for Chrome extensions by offering compelling add-ons, content packs, and feature upgrades to your existing user base."
+---
+
 # Chrome Extension In-App Purchase Monetization — Boosting Revenue with Add-ons
 
 In-app purchase Chrome Extension Monetization allows you to offer additional features, content, or functionality as optional upgrades within your extension. This guide covers pricing digital goods, managing entitlements, and optimizing the purchase flow to maximize revenue from existing users.
