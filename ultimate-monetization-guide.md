@@ -3,6 +3,10 @@ title: "The Ultimate Chrome Extension Monetization Guide (2026) — Every Revenu
 description: "A comprehensive guide to monetizing Chrome extensions in 2026. Explore 30+ revenue strategies including freemium models, subscriptions, ads, and affiliate programs."
 date: 2026-01-15
 layout: default
+<<<<<<< HEAD
+=======
+canonical_url: "https://theluckystrike.github.io/monetization-playbook/ultimate-monetization-guide.html"
+>>>>>>> seo/canonical-urls
 nav:
   - { text: "Freemium Models", href: "#freemium-models" }
   - { text: "Subscription Plans", href: "#subscription-plans" }

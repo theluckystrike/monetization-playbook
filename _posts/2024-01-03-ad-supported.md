@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+=======
+---
+title: "Chrome Extension Ad Monetization — Maximizing Revenue Through Advertising"
+date: 2024-01-03
+layout: default
+canonical_url: "https://theluckystrike.github.io/monetization-playbook/2024/01/03/ad-supported.html"
+---
+
+>>>>>>> seo/canonical-urls
 # Chrome Extension Ad Monetization — Maximizing Revenue Through Advertising
 
 Ad-supported Chrome Extension Monetization allows you to generate revenue while offering your extension for free to a wider audience. This guide explores various ad formats, placement strategies, and best practices for balancing user experience with revenue generation.
