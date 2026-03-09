@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ---
 title: "Chrome Extension Subscription Monetization — Recurring Revenue Strategies for Extensions"
@@ -8,6 +9,14 @@ canonical_url: "https://theluckystrike.github.io/monetization-playbook/2024/01/0
 ---
 
 >>>>>>> seo/canonical-urls
+=======
+---
+layout: default
+title: "Chrome Extension Subscription — Monetization Strategy"
+description: "Discover how to build predictable recurring revenue with subscription-based Chrome extension monetization, from pricing tiers to retention strategies."
+---
+
+>>>>>>> seo/frontmatter-batch2
 # Chrome Extension Subscription Monetization — Recurring Revenue Strategies for Extensions
 
 Subscription-based Chrome Extension Monetization provides predictable, recurring revenue that can scale your extension business significantly. This comprehensive guide covers everything from pricing tiers to retention strategies that keep subscribers paying month after month.

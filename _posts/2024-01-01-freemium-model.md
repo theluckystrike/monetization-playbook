@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ---
 title: "Chrome Extension Freemium Monetization — How to Convert Free Users to Paying Customers"
@@ -8,6 +9,14 @@ canonical_url: "https://theluckystrike.github.io/monetization-playbook/2024/01/0
 ---
 
 >>>>>>> seo/canonical-urls
+=======
+---
+layout: default
+title: "Chrome Extension Freemium — Monetization Strategy"
+description: "Learn how to convert free Chrome extension users to paying customers with proven freemium monetization strategies that maximize conversion rates."
+---
+
+>>>>>>> seo/frontmatter-batch2
 # Chrome Extension Freemium Monetization — How to Convert Free Users to Paying Customers
 
 Freemium is one of the most popular Chrome Extension Monetization strategies, allowing users to try your extension before committing to a paid plan. This guide explores proven techniques for converting free users into paying customers while maintaining a positive user experience.
