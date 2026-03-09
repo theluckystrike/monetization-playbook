@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ---
 title: "Chrome Extension In-App Purchase Monetization — Boosting Revenue with Add-ons"
@@ -20,10 +21,13 @@ description: "Maximize revenue with in-app purchases for Chrome extensions by of
 >>>>>>> seo/frontmatter-batch2
 =======
 >>>>>>> seo/internal-links
+=======
+>>>>>>> seo/meta-descriptions
 # Chrome Extension In-App Purchase Monetization — Boosting Revenue with Add-ons
 
 In-app purchase Chrome Extension Monetization allows you to offer additional features, content, or functionality as optional upgrades within your extension. This guide covers pricing digital goods, managing entitlements, and optimizing the purchase flow to maximize revenue from existing users.
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 ## The Power of In-App Purchases
 
@@ -257,3 +261,6 @@ Content about in-app purchases...
 - [One-Time Purchase](/_posts/2024-01-04-one-time-purchase.md) — Single payment strategies
 - [Ad-Supported](/_posts/2024-01-03-ad-supported.md) — Revenue through advertising
 >>>>>>> seo/internal-links
+=======
+Content about in-app purchases...
+>>>>>>> seo/meta-descriptions
