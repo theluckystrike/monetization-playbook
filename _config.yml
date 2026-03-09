@@ -2,6 +2,7 @@ title: "Chrome Extension Monetization Playbook by theluckystrike"
 description: "30+ strategies for monetizing Chrome extensions — pricing, ads, freemium, and more"
 url: "https://theluckystrike.github.io"
 baseurl: "/monetization-playbook"
+image: "/assets/images/og-image.png"
 theme: minima
 plugins:
   - jekyll-sitemap
