@@ -29,6 +29,30 @@ In-app purchase Chrome Extension Monetization allows you to offer additional fea
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+## Table of Contents
+
+- [The Power of In-App Purchases](#the-power-of-in-app-purchases)
+- [Practical Examples and Case Studies](#practical-examples-and-case-studies)
+  - [Case Study: Todoist's Feature Add-ons](#case-study-todoists-feature-add-ons)
+  - [Case Study: Notion's Add-on Features](#case-study-notions-add-on-features)
+  - [Case Study: Language Learning Extensions](#case-study-language-learning-extensions)
+  - [Case Study: Developer Tool Extensions](#case-study-developer-tool-extensions)
+- [Implementation Steps](#implementation-steps)
+  - [Step 1: Define Your Add-on Catalog](#step-1-define-your-add-on-catalog)
+  - [Step 2: Set Pricing Strategy](#step-2-set-pricing-strategy)
+  - [Step 3: Implement Purchase System](#step-3-implement-purchase-system)
+  - [Step 4: Design Purchase Prompts](#step-4-design-purchase-prompts)
+  - [Step 5: Optimize the Experience](#step-5-optimize-the-experience)
+- [Key Metrics to Track](#key-metrics-to-track)
+  - [Sales Metrics](#sales-metrics)
+  - [Product Metrics](#product-metrics)
+  - [User Behavior Metrics](#user-behavior-metrics)
+  - [Financial Metrics](#financial-metrics)
+- [Best Practices for IAP Success](#best-practices-for-iap-success)
+
+>>>>>>> seo/toc-reading-time
 ## The Power of In-App Purchases
 
 In-app purchases (IAP) represent one of the most flexible monetization approaches for Chrome extensions. Unlike subscriptions or one-time purchases, IAP allows you to sell individual features, content packs, or enhancements to users who have already adopted your extension. This creates multiple revenue streams from a single user and lets users customize their experience based on their specific needs.

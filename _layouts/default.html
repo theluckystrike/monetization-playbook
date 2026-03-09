@@ -121,6 +121,7 @@
     </nav>
     
     <main class="content">
+<<<<<<< HEAD
       {% if page.url != "/" %}
       <!-- Breadcrumb Navigation -->
       <nav class="breadcrumb">
@@ -128,6 +129,11 @@
       </nav>
       {% endif %}
       
+=======
+      {% if page.title %}
+      <p class="reading-time">📖 {{ content | number_of_words | divided_by: 200 | plus: 1 }} min read</p>
+      {% endif %}
+>>>>>>> seo/toc-reading-time
       {{ content }}
       
       {% if page.url != "/" %}

@@ -29,6 +29,29 @@ Freemium is one of the most popular Chrome Extension Monetization strategies, al
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+## Table of Contents
+
+- [Understanding the Freemium Model](#understanding-the-freemium-model)
+- [Practical Examples and Case Studies](#practical-examples-and-case-studies)
+  - [Case Study: Grammarly's Journey](#case-study-grammarlys-journey)
+  - [Case Study: Loom's Expansion](#case-study-looms-expansion)
+  - [Practical Implementation Example](#practical-implementation-example)
+- [Implementation Steps](#implementation-steps)
+  - [Step 1: Define Your Core Value Proposition](#step-1-define-your-core-value-proposition)
+  - [Step 2: Identify Feature Tiers](#step-2-identify-feature-tiers)
+  - [Step 3: Set Up Usage Limits](#step-3-set-up-usage-limits)
+  - [Step 4: Create Clear Upgrade Prompts](#step-4-create-clear-upgrade-prompts)
+  - [Step 5: Test and Iterate](#step-5-test-and-iterate)
+- [Key Metrics to Track](#key-metrics-to-track)
+  - [Conversion Metrics](#conversion-metrics)
+  - [Engagement Metrics](#engagement-metrics)
+  - [Retention Metrics](#retention-metrics)
+  - [Financial Metrics](#financial-metrics)
+- [Best Practices for Freemium Success](#best-practices-for-freemium-success)
+
+>>>>>>> seo/toc-reading-time
 ## Understanding the Freemium Model
 
 The freemium model has become the gold standard for Chrome Extension Monetization because it lowers the barrier to entry while creating a clear pathway to revenue. By offering a valuable free version, you allow potential customers to experience your extension's core benefits firsthand. This approach builds trust and demonstrates value before any financial commitment is required.

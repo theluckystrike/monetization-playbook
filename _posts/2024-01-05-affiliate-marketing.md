@@ -29,6 +29,30 @@ Affiliate-based Chrome Extension Monetization enables you to earn commissions by
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+## Table of Contents
+
+- [Understanding Affiliate Marketing for Extensions](#understanding-affiliate-marketing-for-extensions)
+- [Practical Examples and Case Studies](#practical-examples-and-case-studies)
+  - [Case Study: Honey's Affiliate Empire](#case-study-honeys-affiliate-empire)
+  - [Case Study: Amazon Associates with Shopping Extensions](#case-study-amazon-associates-with-shopping-extensions)
+  - [Case Study: Software Tool Referrals](#case-study-software-tool-referrals)
+  - [Case Study: Financial Product Extensions](#case-study-financial-product-extensions)
+- [Implementation Steps](#implementation-steps)
+  - [Step 1: Identify Relevant Affiliate Programs](#step-1-identify-relevant-affiliate-programs)
+  - [Step 2: Apply to Affiliate Programs](#step-2-apply-to-affiliate-programs)
+  - [Step 3: Implement Tracking](#step-3-implement-tracking)
+  - [Step 4: Design Integration Points](#step-4-design-integration-points)
+  - [Step 5: Disclose Clearly](#step-5-disclose-clearly)
+- [Key Metrics to Track](#key-metrics-to-track)
+  - [Revenue Metrics](#revenue-metrics)
+  - [Traffic Metrics](#traffic-metrics)
+  - [Performance Metrics](#performance-metrics)
+  - [Compliance Metrics](#compliance-metrics)
+- [Best Practices for Affiliate Success](#best-practices-for-affiliate-success)
+
+>>>>>>> seo/toc-reading-time
 ## Understanding Affiliate Marketing for Extensions
 
 Affiliate monetization works by promoting third-party products or services and earning commissions on resulting sales or leads. For Chrome extensions, this model aligns perfectly with tools that help users accomplish tasks—your extension facilitates actions that lead to affiliate conversions.
