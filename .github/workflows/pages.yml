@@ -1,8 +1,14 @@
+<<<<<<< HEAD
 name: Build and Deploy Jekyll Site to GitHub Pages
+=======
+# GitHub Pages workflow for Jekyll site
+name: Deploy Jekyll Site to GitHub Pages
+>>>>>>> seo/gh-pages-workflow
 
 on:
   push:
     branches:
+<<<<<<< HEAD
       - main
 
 permissions:
@@ -16,6 +22,12 @@ concurrency:
 
 jobs:
   build:
+=======
+      - main  # Set a branch to deploy
+
+jobs:
+  jekyll:
+>>>>>>> seo/gh-pages-workflow
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -24,6 +36,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
+<<<<<<< HEAD
           ruby-version: '3.2'
           bundler-cache: true
 
@@ -49,4 +62,16 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
+=======
+          ruby-version: '3.2' # or your desired Ruby version
+          bundler-cache: true
+
+      - name: Install dependencies
+        run: bundle install
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+
+      - name: Deploy
+>>>>>>> seo/gh-pages-workflow
         uses: actions/deploy-pages@v4
